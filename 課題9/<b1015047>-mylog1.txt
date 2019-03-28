@@ -1,0 +1,103 @@
+% File:    <b1015047>-mylog1.txt
+% Author:  Kamada Kouki
+% Date:    2017/07/11
+% Purpose: homework Lecture 9
+%   "I declare that this represents my own work, with no unacknowledged
+%    use of external information."
+
+SICStus 4.2.1 (x86_64-darwin-11.2.0): Wed Feb  1 01:17:35 CET 2012
+Licensed to SP4fun.ac.jp
+| ?- [shell].
+% compiling /Users/kouki/Documents/02_prolog/課題9/shell.pl...
+% compiled /Users/kouki/Documents/02_prolog/課題9/shell.pl in module user, 0 msec 9712 bytes
+yes
+| ?- prove(good_pet(tweetie)).
+Does tweetie have feathers?
+(y/n)
+|: y.
+Is tweetie small
+(y/n)
+|: n.
+Is tweetie cute?
+(y/n)
+|: n.
+The goal does not seem to be true.
+yes
+| ?- prove(good_pet(tweetie)).
+Is tweetie small
+(y/n)
+|: y.
+I suggest that tweetie would make a good pet.
+yes
+| ?- prove(good_pet(tweetie)).
+I suggest that tweetie would make a good pet.
+yes
+| ?- prove(good_pet(tweetie)).
+I suggest that tweetie would make a good pet.
+yes
+| ?- prove(good_pet(tweeti)).         
+Does tweeti have feathers?
+(y/n)
+|: n.
+Is tweeti a bird?
+(y/n)
+|: y.
+Is tweeti small
+(y/n)
+|: y.
+I suggest that tweeti would make a good pet.
+yes
+| ?- prove(good_pet(tweet)).  
+Does tweet have feathers?
+(y/n)
+|: n.
+Is tweet a bird?
+(y/n)
+|: n.
+Is tweet cute?
+(y/n)
+|: y.
+I suggest that tweet would make a good pet.
+yes
+| ?- prove(good_pet(tweegfuugu)).     
+Does tweegfuugu have feathers?
+(y/n)
+|: n.
+Is tweegfuugu a bird?
+(y/n)
+|: n.
+Is tweegfuugu cute?
+(y/n)
+|: n.
+The goal does not seem to be true.
+yes
+| ?- prove(good_pet(tweetieyigg)).    
+Does tweetieyigg have feathers?
+(y/n)
+|: n.
+Is tweetieyigg a bird?
+(y/n)
+|: y.
+Is tweetieyigg small
+(y/n)
+|: n.
+Is tweetieyigg cute?
+(y/n)
+|: y.
+I suggest that tweetieyigg would make a good pet.
+yes
+| ?- prove(good_pet(tweetieeeee)).
+Does tweetieeeee have feathers?
+(y/n)
+|: n.
+Is tweetieeeee a bird?
+(y/n)
+|: y.
+Is tweetieeeee small
+(y/n)
+|: n.
+Is tweetieeeee cute?
+(y/n)
+|: n.
+The goal does not seem to be true.
+yes

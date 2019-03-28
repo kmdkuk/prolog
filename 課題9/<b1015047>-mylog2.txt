@@ -1,0 +1,115 @@
+% File:    <b1015047>-mylog2.txt
+% Author:  Kamada Kouki
+% Date:    2017/07/11
+% Purpose: homework Lecture 9
+%   "I declare that this represents my own work, with no unacknowledged
+%    use of external information."
+
+SICStus 4.2.1 (x86_64-darwin-11.2.0): Wed Feb  1 01:17:35 CET 2012
+Licensed to SP4fun.ac.jp
+| ?- [shell].
+% compiling /Users/kouki/Documents/02_prolog/課題9/shell.pl...
+% compiled /Users/kouki/Documents/02_prolog/課題9/shell.pl in module user, 10 msec 9664 bytes
+yes
+| ?- prove(good_pet(tweetie)).
+Does tweetie have feathers?
+(y/n)
+|: y.
+Is tweetie small
+(y/n)
+|: y.
+I suggest that tweetie would make a good pet.
+yes
+| ?- prove(good_pet(tweetie1)).       
+Does tweetie1 have feathers?
+(y/n)
+|: y.
+Is tweetie1 small
+(y/n)
+|: n.
+Is tweetie1 a bird?
+(y/n)
+|: y.
+Is tweetie1 small
+(y/n)
+|: y.
+I suggest that tweetie1 would make a good pet.
+yes
+| ?- prove(good_pet(tweetie2)).   
+Does tweetie2 have feathers?
+(y/n)
+|: y.
+Is tweetie2 small
+(y/n)
+|: n.
+Is tweetie2 a bird?
+(y/n)
+|: y.
+Is tweetie2 small
+(y/n)
+|: n.
+Is tweetie2 cute?
+(y/n)
+|: y.
+I suggest that tweetie2 would make a good pet.
+yes
+| ?- prove(good_pet(tweetie3)).
+Does tweetie3 have feathers?
+(y/n)
+|: y.
+Is tweetie3 small
+(y/n)
+|: n.
+Is tweetie3 a bird?
+(y/n)
+|: y.
+Is tweetie3 small
+(y/n)
+|: n.
+Is tweetie3 cute?
+(y/n)
+|: n.
+The goal does not seem to be true.
+yes
+| ?- prove(good_pet(tweetie4)).
+Does tweetie4 have feathers?
+(y/n)
+|: y.
+Is tweetie4 small
+(y/n)
+|: n.
+Is tweetie4 a bird?
+(y/n)
+|: n.
+Is tweetie4 cute?
+(y/n)
+|: y.
+I suggest that tweetie4 would make a good pet.
+yes
+| ?- prove(good_pet(tweetie5)).
+Does tweetie5 have feathers?
+(y/n)
+|: y.
+Is tweetie5 small
+(y/n)
+|: n.
+Is tweetie5 a bird?
+(y/n)
+|: n.
+Is tweetie5 cute?
+(y/n)
+|: n.
+The goal does not seem to be true.
+yes
+| ?- prove(good_pet(tweetie6)).
+Does tweetie6 have feathers?
+(y/n)
+|: n.
+Is tweetie6 a bird?
+(y/n)
+|: y.
+Is tweetie6 small
+(y/n)
+|: y.
+I suggest that tweetie6 would make a good pet.
+yes
